@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1602836199 source:d:\codeblocks\c++demo\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1597486414 d:\codeblocks\c++demo\main.hpp
+	<iostream>
+	"time.h"
+	<unistd.h>
+	"user/test.hpp"
+	<cstring>
+
+1597651733 d:\codeblocks\c++demo\user\test.hpp
+	"../main.hpp"
+
+1597741910 source:d:\codeblocks\c++demo\user\test.cpp
+	"test.hpp"
+	"time.h"
+
